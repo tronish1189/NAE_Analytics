@@ -1,0 +1,48 @@
+/* Fonts 
+-> Founders Grotesk Regular
+   ========================================================================== */
+@font-face {
+  font-family: "Founders Grotesk";
+  src: url("../fonts/FoundersGroteskWeb-Regular.eot");
+  src: url("../fonts/FoundersGroteskWeb-Regular.eot?iefix") format("eot"),
+    url("../fonts/FoundersGroteskWeb-Regular.woff2") format("woff2"),
+    url("../fonts/FoundersGroteskWeb-Regular.woff") format("woff"),
+    url("../fonts/FoundersGroteskWeb-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Fonts -> Founders Grotesk Medium
+   ========================================================================== */
+@font-face {
+  font-family: "Founders Grotesk";
+  src: url("../fonts/FoundersGroteskWeb-Medium.eot");
+  src: url("../fonts/FoundersGroteskWeb-Medium.eot?iefix") format("eot"),
+    url("../fonts/FoundersGroteskWeb-Medium.woff2") format("woff2"),
+    url("../fonts/FoundersGroteskWeb-Medium.woff") format("woff"),
+    url("../fonts/FoundersGroteskWeb-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1,
+h2,
+p,
+a {
+  font-family: "Founders Grotesk";
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: $color-black;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
